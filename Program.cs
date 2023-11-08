@@ -56,9 +56,9 @@ class Program
 {
     
     static void Main(string[] args)
-    {
-        //Console.Write("введите путь к файлу: ");
-        Console.WriteLine(MatrixBuilder.MakeSimplexTable("/home/max/Документы/Matr.csv"));
+    {   
+        Console.Write("введите путь к файлу: ");
+        Console.WriteLine(MatrixBuilder.MakeSimplexTable(Console.ReadLine()));
     }
 }
 
